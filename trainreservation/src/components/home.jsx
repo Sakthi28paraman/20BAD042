@@ -25,6 +25,7 @@ export default function Home() {
         <tr>
             <th>Train Name</th>
             <th>Departure Time</th>
+            <th>Train Number</th>
             <th>Price</th>
         </tr>
     </thead>
@@ -37,6 +38,7 @@ export default function Home() {
             <td>{train.trainName}</td>
             <td>{train.trainNumber}</td>
             <td>{train.departureTime}</td>
+            <td>{train.price}</td>
         </tr>
         );
         }
